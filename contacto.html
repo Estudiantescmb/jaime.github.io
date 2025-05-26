@@ -1,10 +1,99 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Caseras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #c0392b;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            background-image: url('comida.jpg'); /* Cambia esta imagen */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+        main {
+            padding: 20px;
+        }
+        .plato {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
 
-  <head>
-  </head>
+    <header>
+        <h1>Delicias Caseras</h1>
+        <p>Sabores que te hacen sentir en casa</p>
+    </header>
 
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
 
-  <body>
+    <div class="hero">
+        ¡Descubre nuestros platos favoritos!
+    </div>
 
-    <h1> SALUDO</h1>
-  </body> 
+    <main>
+        <section class="plato">
+            <h2>Empanadas Criollas</h2>
+            <p>Hechas a mano con rellenos jugosos y masa crocante.</p>
+        </section>
+
+        <section class="plato">
+            <h2>Milanesa con Papas</h2>
+            <p>Clásica milanesa casera acompañada con papas doradas.</p>
+        </section>
+
+        <section class="plato">
+            <h2>Pastas del Domingo</h2>
+            <p>Fettuccine artesanal con salsa bolognesa o pesto a elección.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicias Caseras. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
